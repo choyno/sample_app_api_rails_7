@@ -14,7 +14,7 @@ RUN RSPEC
 LOCAL PREPARE
 ```
   rails db:setup
-  rails:migrate
+  rails db:migrate
   rails db:test:prepare
 ```
 
