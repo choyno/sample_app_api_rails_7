@@ -18,13 +18,6 @@ LOCAL PREPARE
   rails db:test:prepare
 ```
 
-LOCAL PREPARE
-```
-  rails db:setup
-  rails:migrate
-  rails db:test:prepare
-```
-
 LOCAL SEED DATA
 ```
  rails db:seed
