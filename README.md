@@ -1,24 +1,31 @@
-# README
+RAILS 7
+RUBY 3
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+RUN SERVER
+```
+ rails s
+```
 
-Things you may want to cover:
+RUN RSPEC
+```
+ rspec spec
+```
 
-* Ruby version
+LOCAL PREPARE
+```
+  rails db:setup
+  rails:migrate
+  rails db:test:prepare
+```
 
-* System dependencies
+LOCAL PREPARE
+```
+  rails db:setup
+  rails:migrate
+  rails db:test:prepare
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+LOCAL SEED DATA
+```
+ rails db:seed
+```
