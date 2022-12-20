@@ -4,12 +4,12 @@ RSpec.describe "Get /posts", type: :request do
 
     before(:each) do
       sample_data = [
-        Post.create(title: 'title1', description: "132123213123123"),
-        Post.create(title: 'title2', description: "132123213123123" ),
-        Post.create(title: 'title3', description: "132123213123123"),
-        Post.create(title: 'title4', description: "132123213123123"),
-        Post.create(title: 'title6', description: "132123213123123"),
-        Post.create(title: 'title6', description: "132123213123123")
+        create(:post, title: 'title1', description: "132123213123123"),
+        create(:post, title: 'title2', description: "132123213123123"),
+        create(:post, title: 'title3', description: "132123213123123"),
+        create(:post, title: 'title4', description: "132123213123123"),
+        create(:post, title: 'title6', description: "132123213123123"),
+        create(:post, title: 'title6', description: "132123213123123")
       ]
     end
 

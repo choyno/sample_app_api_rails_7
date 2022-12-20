@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "PUT /posts/:id", type: :request do
 
-  let(:post) { FactoryBot.create(:post) }
+  let(:post) { create(:post) }
   let(:new_title) { "New Title" }
 
   let(:updated_post_params) do

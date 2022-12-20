@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "DELETE /posts/:id", type: :request do
 
-  let!(:post) { FactoryBot.create(:post) }
+  let!(:post) { create(:post) }
 
   it "delete post" do
 
